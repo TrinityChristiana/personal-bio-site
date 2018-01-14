@@ -1,0 +1,150 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* HTML */
+html {
+  background-color: #40e0d0;
+  box-sizing: border-box;
+}
+
+/* head */
+
+  /* body */
+
+    /* 
+    nav-fixed navigation bar at the top of the screen
+    */
+    .nav-bar{
+      border:none;
+      background-color:#ffffff;
+      display:flex;
+      flex-wrap: wrap;
+      align-items:center;
+      justify-content:space-between;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      padding: 10px 10%
+    }
+    
+    /*Navigation Logo */
+    #logo {
+      height: 50px;
+      padding: 0px 30px;
+      object-fit: cover;
+      justify-content:flex-start;
+      border: solid #40e0d0;
+      padding: 0px 0px;
+    }
+
+    /* Navigation Links */
+    .nav-bar a {
+        border:none;
+        font-family: 'Roboto', sans-serif;  
+        font-size: 30px;
+        color:#B33340;
+        text-decoration:;
+    }
+
+/* Visible Website Title */
+h1 {
+  text-align:center;
+  color:#ffffff;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  margin: 100px 0px 30px 
+}
+
+h2 {
+  font-size:24px;
+}
+h2, h3, h4 {
+  margin: 2px;
+  text-align: center;
+}
+
+
+/* Education */
+.education, .shows, .contact-form{
+  font-family: 'Roboto Condensed', sans-serif;
+  border:3px dotted #82ebe0;
+}
+
+.education h2, h3, .shows h2, .contact-form{
+  color: #e04050;
+}
+
+.education p {
+  padding: 10px;
+  text-align: justify;
+}
+
+/* 
+
+#edu-two {
+  font-family: 'Roboto Condensed', sans-serif;
+  border:3px dotted #82ebe0;
+}
+
+#edu-three {
+  font-family: 'Roboto Condensed', sans-serif;
+  border:3px dotted #82ebe0;
+} 
+
+*/
+
+
+
+
+
+
+/* Top 5 TV Shows */
+.shows {
+  border:3px dotted #82ebe0;
+  margin: 20px 0px;
+}
+
+
+.shows-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content:center;
+  margin: 10px 0px;
+}
+
+.shows-img img{
+  width: 200px;
+  display:block;
+  padding: 10px
+}
+
+.shows-img a{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:22px;
+  color:#B33340;
+  text-decoration:none;
+}
+
+
+/*Contact Form*/
+.contact-form{
+  margin: 10px 0px;
+}
+
+.contact-form input, textarea{
+ display: block;
+ margin: 20px auto;
+ font-family: 'Roboto Condensed', sans-serif;
+ font-size:20px;
+ width:80%
+}
+
+
+input:invalid {
+  background-color:red;
+}
+
+
